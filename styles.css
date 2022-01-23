@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    margin: 5% 16%;
+}
+/* header */
+h1{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 5.8rem;
+    margin-bottom: 12px;
+}
+.recipe-intro{
+    display: flex;
+}
+.sixd{
+    margin-top: 5px;
+    margin-right: 12px;
+}
+p{
+    max-width: 36%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 17px;
+    font-style: italic;
+    color: #4f4f4f;
+}
+.imag{
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+.cheesecake{
+    width: 100%;
+}
+/* main */
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+/* serving,time */
+.serving-time{
+    padding: 20px;
+    width: 75%;
+    min-width: 200px;
+    height: 18%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.st-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+
+}
+.serv{
+    margin-top: 57px;
+}
+.simg{
+    background: #F2994A;
+}
+.serv-imag{
+    width: 30px;
+    height: 30px;
+}
+h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.serving{
+    color: #F2994A;
+    font-size: 1.7rem;
+    max-width: unset;
+}
+
+.tim{
+    margin-top:43px
+}
+.time{
+    font-style: unset;
+    font-size: 1.7rem;
+    max-width: unset;
+}
+.tot{
+    margin-bottom: 50px;
+}
+
+/* main content */
+/* ingredients */
+h2{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: #333;
+    margin-bottom: 32px;
+}
+.ing{
+    font-family: Playfair Display;
+    font-size: 2.7rem;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+.item{
+    display: flex;
+    gap:17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.checkbox{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 21px;
+    width: 21px;
+    border:1px solid #828282;
+    border-radius: 4px;
+}
+.checkbox.check{
+    background-image: url("./check_black_24dp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-desc{
+    max-width: 48%;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 2.1rem;
+    line-height: 35px;
+    font-style: normal;
+    color: #333;
+    margin-bottom: 20px;
+}
+span{
+    font-style: italic;
+}
+/* Instructions */
+.step{
+    color: #fff;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 2.4rem;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    background: #F2994A;
+    border-radius: 6px;
+}
+/* source */
+.source{
+    color: #BDBDBD;
+    max-width: unset;
+    font-family: Montserrat;
+    font-size: 2rem;
+    margin-top: 60px;
+}
+@media(max-width:600px){
+    .container{
+        margin: 3% 3%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        max-width: 90%;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 17px;
+        font-style: italic;
+        color: #4f4f4f;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    /* serving time */
+    /* serving,time */
+.serving-time{  
+    padding: 0;
+    height: 18%;
+    box-shadow: unset;
+}
+.st-container{
+    justify-content: unset;
+    gap: 10px;
+}
+.time-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.serv{
+    margin-top: 0;
+}
+.serv-imag{
+    width: 20px;
+    height: 20px;
+}
+h6{
+    font-size: 1.2rem;
+    line-height: 9.75px;
+}
+.serving{
+    font-size: 1rem;
+}
+.tim{
+    margin-top:23px
+}
+.time{
+    font-size: 1rem;
+}
+/* main content */
+h2{
+    font-size: 2.3rem;
+    margin-bottom: 22px;
+}
+.ing{
+    font-size: 2.1rem;
+    line-height: 21px;
+    margin-bottom: 21px;
+}
+.item{
+    gap:7px;
+}
+.checkbox{
+    margin-top: 5px;
+}
+.item-desc{
+    max-width: unset;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 1.5rem;
+}
+}
