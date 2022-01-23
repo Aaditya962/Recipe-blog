@@ -78,6 +78,7 @@ h6{
     color: #BDBDBD;
 }
 .serving{
+    margin-top: 10px;
     color: #F2994A;
     font-size: 1.7rem;
     max-width: unset;
@@ -87,6 +88,7 @@ h6{
     margin-top:43px
 }
 .time{
+    margin-top: 10px;
     font-style: unset;
     font-size: 1.7rem;
     max-width: unset;
@@ -164,6 +166,17 @@ span{
     font-family: Montserrat;
     font-size: 2rem;
     margin-top: 60px;
+}
+/* footer */
+.footer-para{
+    
+    margin: 30px auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    min-width: 480px;
+    opacity: 0.6;
 }
 @media(max-width:600px){
     .container{
@@ -244,5 +257,12 @@ h2{
 }
 span{
     font-size: 1.5rem;
+}
+.footer-para{
+    position: relative;
+    bottom: 0;
+    margin-top: 0;
+    font-size: 1.3rem;
+    min-width: 450px;
 }
 }
