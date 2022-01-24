@@ -13,7 +13,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://aaditya962.github.io/Recipe-blog/">
+    <a href="https://recipe-blog-aaditya.netlify.app/">
       Solution
     </a>
     <span> | </span>
