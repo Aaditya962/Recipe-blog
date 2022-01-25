@@ -43,7 +43,7 @@ Netlify
 - What was your experience?
 Well,It was fun.
 - What have you learned/improved?
-Well I've improving my skills towards the site's responsiveness bit by bit though....
+Well I am improving my skills towards the site's responsiveness bit by bit though....
 
 
 ### Built With
